@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation, HashRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -18,7 +18,7 @@ const ScrollToTop = () => {
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen font-sans text-brand-dark">
         <Navbar />
@@ -33,7 +33,7 @@ const App: React.FC = () => {
         </main>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
