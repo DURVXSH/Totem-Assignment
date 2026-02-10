@@ -29,9 +29,9 @@ const Problems: React.FC = () => {
                 </div>
 
                 <div className="container mx-auto px-6 relative z-10 text-center">
-                    <div className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-brand-accent/20 border border-brand-accent/30 text-brand-cream font-bold text-[10px] uppercase tracking-[0.3em] mb-12 animate-pulse backdrop-blur-md shadow-glow">
+                    {/* <div className="inline-flex items-center gap-3 px-6 py-2.5 rounded-full bg-brand-accent/20 border border-brand-accent/30 text-brand-cream font-bold text-[10px] uppercase tracking-[0.3em] mb-12 animate-pulse backdrop-blur-md shadow-glow">
                         <AlertTriangle size={14} className="text-brand-accent" /> System Failure Detected
-                    </div>
+                    </div> */}
 
                     <h1 className="font-hero font-bold text-6xl md:text-8xl lg:text-[100px] leading-[1.1] text-brand-cream drop-shadow-lg mb-8 opacity-0 animate-fade-in-up">
                         The <br />
