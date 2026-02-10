@@ -19,7 +19,7 @@ const Problems: React.FC = () => {
             <section className="relative h-screen flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?q=80&w=2674&auto=format&fit=crop"
+                        src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9?q=80&w=2670&auto=format&fit=crop"
                         alt="Devastated Landscape"
                         className="w-full h-full object-cover grayscale contrast-[1.2] brightness-[0.4] scale-[1.1]"
                         style={{ transform: `scale(${1.1 + scrolled * 0.0002})` }}
@@ -83,7 +83,7 @@ const Problems: React.FC = () => {
                         <div className="relative group rounded-[32px] overflow-hidden aspect-[4/5] shadow-2xl">
                             <div className="absolute inset-0 bg-brand-dark/20 transition-all duration-500 group-hover:bg-transparent"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1617122170321-c42a59a72172?q=80&w=2070&auto=format&fit=crop"
+                                src="/Yamuna.png"
                                 className="w-full h-full object-cover grayscale contrast-[1.1] transition-transform duration-700 group-hover:scale-105"
                                 alt="Yamuna Surface"
                             />
@@ -141,9 +141,9 @@ const Problems: React.FC = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="order-2 lg:order-1 relative group rounded-[32px] overflow-hidden shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1574347209590-b183617325b7?q=80&w=2670&auto=format&fit=crop"
-                                className="w-full h-[500px] object-cover grayscale contrast-[1.2] group-hover:scale-105 transition-transform duration-700"
-                                alt="Industrial Waste"
+                                src="/Yamuna.png"
+                                className="w-full h-[500px] object-cover filter invert hue-rotate-[200deg] contrast-[1.5] saturate-[3] group-hover:scale-110 transition-transform duration-700"
+                                alt="Industrial Thermal Vision Scan"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-transparent"></div>
                             <div className="absolute bottom-8 left-8 flex gap-4">
